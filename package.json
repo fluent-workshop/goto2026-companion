@@ -1,0 +1,20 @@
+{
+  "name": "goto-accelerate-companion",
+  "version": "1.0.0",
+  "description": "AI-powered companion app for GOTO Accelerate Chicago 2026",
+  "scripts": {
+    "dev": "bun run --watch src/server.ts",
+    "dev:client": "cd client && bun run dev",
+    "build:client": "cd client && bun run build",
+    "seed": "bun run scripts/seed.ts",
+    "scrape": "bun run scripts/scrape.ts",
+    "migrate": "bun run scripts/migrate.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.51.0",
+    "postgres": "^3.4.5"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  }
+}
