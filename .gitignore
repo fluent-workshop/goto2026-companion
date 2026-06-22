@@ -9,9 +9,21 @@ client/dist/
 .env
 .env.local
 .env.*.local
+client/.env.local
+.envrc.local
+instance-secrets.toml
 
-# Scrape cache (read-only source, not versioned here)
+# Supabase local runtime
+supabase/.temp/
+supabase/.branches/
+supabase/volumes/
+
+# Web-scraping cache — read-only reference data, not versioned
 .cache/
+
+# Local scratch / agent orchestration artifacts
+.scratch/
+.cc-dispatch/manifest.json
 
 # OS / editor
 .DS_Store
