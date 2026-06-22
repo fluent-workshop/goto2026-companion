@@ -10,7 +10,7 @@ export const CONFERENCE = {
   tagline: "Accelerate Chicago",
   subhead:
     "Three days of deep technical talks on AI engineering, software architecture, and the craft of building software — from the people doing it in production.",
-  registerUrl: "https://gotochgo.com/accelerate-chicago-2026",
+  registerUrl: "https://gotochgo.com/accelerate-chicago-2026/cart",
 } as const;
 
 export const NAV_LINKS = [
