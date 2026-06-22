@@ -15,6 +15,11 @@ export default defineConfig({
     allowedHosts: true,
     proxy: {
       "/api": "http://localhost:3000",
+      "/supabase": {
+        target: "http://127.0.0.1:54421",
+        changeOrigin: true,
+        rewrite: (path) => path.replace(/^\/supabase/, ""),
+      },
     },
   },
 });
