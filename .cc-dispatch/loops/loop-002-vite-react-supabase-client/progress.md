@@ -1,0 +1,6 @@
+- 2026-06-22T10:46:34.678Z · turn end · idle · 395f854a
+- 2026-06-22T10:50:15.913Z · turn end · idle · 395f854a
+- 2026-06-22T10:56:00.868Z · turn end · goal active · 395f854a
+- 2026-06-22T10:56:29.161Z · turn end · goal active · 395f854a
+- 2026-06-22T10:56:42.110Z · turn end · goal active · 395f854a
+- 2026-06-22T11:04:09.516Z · turn end · idle · 395f854a

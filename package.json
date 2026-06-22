@@ -8,10 +8,14 @@
     "build:client": "cd client && bun run build",
     "seed": "bun run scripts/seed.ts",
     "scrape": "bun run scripts/scrape.ts",
-    "migrate": "bun run scripts/migrate.ts"
+    "migrate": "bun run scripts/migrate.ts",
+    "supabase:start": "supabase start",
+    "supabase:stop": "supabase stop",
+    "supabase:seed": "bun run scripts/seed-supabase.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.51.0",
+    "@supabase/supabase-js": "^2.108.2",
     "postgres": "^3.4.5"
   },
   "devDependencies": {

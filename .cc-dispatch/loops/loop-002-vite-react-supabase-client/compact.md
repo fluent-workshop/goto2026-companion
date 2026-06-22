@@ -1,0 +1,1 @@
+keep: site scrape complete (.cache/web-scraping/gotochgo.com/), data/sessions.json (31 sessions) + speakers.json (32 speakers) seeded, portrait images in assets/portraits/, raw HTML per page in raw/pages/, schedule API JSON in raw/api/; drop: all scraping phases, loop-001 approach, base44 analysis, stale tmux details

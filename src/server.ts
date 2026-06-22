@@ -1,11 +1,10 @@
 /**
  * goto-accelerate-companion — Bun HTTP server
- * Serves the React client and exposes JSON API endpoints.
+ * Serves the built React client and the Claude chat proxy.
  *
- * Routes:
- *   GET  /api/sessions         — all sessions (optional ?date=YYYY-MM-DD&type=Talk)
- *   GET  /api/speakers         — all speakers
- *   GET  /api/speakers/:id     — single speaker + their sessions
+ * Session/speaker data is served directly to the client from Supabase
+ * (see client/src/lib/supabase.ts), so this server only handles:
+ *   GET  /api/health           — health check
  *   POST /api/chat             — RAG chat with Claude
  */
 import postgres from "postgres";
@@ -35,47 +34,6 @@ function notFound(msg = "Not found") {
 }
 
 // ── routes ───────────────────────────────────────────────────────────────────
-
-async function handleSessions(url: URL) {
-  const date = url.searchParams.get("date");
-  const type = url.searchParams.get("type");
-
-  const sessions = await sql`
-    SELECT
-      s.*,
-      COALESCE(
-        json_agg(json_build_object('id', sp.id, 'name', sp.name, 'title', sp.title, 'company', sp.company))
-        FILTER (WHERE sp.id IS NOT NULL), '[]'
-      ) AS speakers
-    FROM sessions s
-    LEFT JOIN session_speakers ss ON ss.session_id = s.id
-    LEFT JOIN speakers sp ON sp.id = ss.speaker_id
-    WHERE 1=1
-      ${date ? sql`AND s.date = ${date}` : sql``}
-      ${type ? sql`AND s.type = ${type}` : sql``}
-    GROUP BY s.id
-    ORDER BY s.date, s.start_time
-  `;
-  return json(sessions);
-}
-
-async function handleSpeakers() {
-  const speakers = await sql`SELECT * FROM speakers ORDER BY name`;
-  return json(speakers);
-}
-
-async function handleSpeaker(id: string) {
-  const [speaker] = await sql`SELECT * FROM speakers WHERE id = ${id}`;
-  if (!speaker) return notFound();
-
-  const sessions = await sql`
-    SELECT s.* FROM sessions s
-    JOIN session_speakers ss ON ss.session_id = s.id
-    WHERE ss.speaker_id = ${id}
-    ORDER BY s.date, s.start_time
-  `;
-  return json({ ...speaker, sessions });
-}
 
 async function handleChat(req: Request) {
   const body = await req.json() as { message: string; history?: { role: string; content: string }[] };
@@ -139,11 +97,6 @@ const server = Bun.serve({
     const path = url.pathname;
 
     // API routes
-    if (path === "/api/sessions" && req.method === "GET") return handleSessions(url);
-    if (path === "/api/speakers" && req.method === "GET") return handleSpeakers();
-    if (path.startsWith("/api/speakers/") && req.method === "GET") {
-      return handleSpeaker(path.replace("/api/speakers/", ""));
-    }
     if (path === "/api/chat" && req.method === "POST") return handleChat(req);
     if (path === "/api/health") return json({ status: "ok", ts: new Date().toISOString() });
 

@@ -1,0 +1,15 @@
+{
+  "notify": [
+    {
+      "channel": "discord",
+      "to": "channel:1518038524530659330",
+      "accountId": "default",
+      "session": "goto-accelerate-companion"
+    }
+  ],
+  "wake": [
+    {
+      "sessionKey": "agent:main:discord:channel:1518038524530659330"
+    }
+  ]
+}

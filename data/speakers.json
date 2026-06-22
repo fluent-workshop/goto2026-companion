@@ -1,34 +1,410 @@
 [
-  { "id": "scott-hanselman", "name": "Scott Hanselman", "title": "VP, Member of Technical Staff", "company": "Microsoft/GitHub", "tags": ["AI engineering", "productivity"], "speakerPageId": 4333 },
-  { "id": "alistair-cockburn", "name": "Alistair Cockburn", "title": "Co-authored the Agile Manifesto", "company": null, "tags": ["software architecture", "quality"], "speakerPageId": 4325 },
-  { "id": "nathen-harvey", "name": "Nathen Harvey", "title": "DORA Lead and Product Manager", "company": "Google Cloud", "tags": ["productivity", "AI engineering"], "speakerPageId": 4336 },
-  { "id": "bret-fisher", "name": "Bret Fisher", "title": "Docker Captain and Cloud Native Ambassador", "company": null, "tags": ["security", "quality"], "speakerPageId": 4335 },
-  { "id": "mike-amundsen", "name": "Mike Amundsen", "title": "Independent author, speaker, trainer, advisor", "company": null, "tags": ["AI engineering", "architecture"], "speakerPageId": 4363 },
-  { "id": "diana-montalion", "name": "Diana Montalion", "title": "Principal Systems Architect", "company": "Mentrix", "tags": ["architecture"], "speakerPageId": 4372 },
-  { "id": "cedric-hurst", "name": "Cedric Hurst", "title": "Principal & Lead Software Engineer", "company": "Spantree", "tags": ["AI engineering", "architecture"], "speakerPageId": 4342 },
-  { "id": "tim-berglund", "name": "Tim Berglund", "title": "VP Developer Relations", "company": "IBM", "tags": ["architecture"], "speakerPageId": 4334 },
-  { "id": "eric-johnson", "name": "Eric Johnson", "title": "Principal Developer Advocate", "company": "AWS", "tags": ["Event Driven Architecture"], "speakerPageId": 4385 },
-  { "id": "sam-smith", "name": "Sam Smith", "title": "Senior Staff Accessibility Lead", "company": "Coinbase", "tags": ["AI engineering"], "speakerPageId": 4398 },
-  { "id": "pj-hagerty", "name": "PJ Hagerty", "title": "Head of Developer and Community Relations", "company": "GitButler", "tags": [], "speakerPageId": 4317 },
-  { "id": "cole-medin", "name": "Cole Medin", "title": "Founder", "company": "Dynamous AI", "tags": ["AI engineering", "quality"], "speakerPageId": 4318 },
-  { "id": "travis-frisinger", "name": "Travis Frisinger", "title": "Head of Agentic AI", "company": "8th Light", "tags": ["AI engineering", "architecture"], "speakerPageId": 4391 },
-  { "id": "advait-patel", "name": "Advait Patel", "title": "Senior Site Reliability Engineer", "company": "Broadcom", "tags": ["security", "AI engineering"], "speakerPageId": 4409 },
-  { "id": "aubrey-chipman", "name": "Aubrey Chipman", "title": "Senior Engineer", "company": "Netflix", "tags": ["architecture"], "speakerPageId": 4517 },
-  { "id": "brian-martin", "name": "Brian Martin", "title": "Chief AI Product Owner, Senior Research Fellow", "company": "AbbVie", "tags": ["data"], "speakerPageId": 4406 },
-  { "id": "carl-anderson", "name": "Carl Anderson", "title": "Software Engineering Director", "company": "Slalom Build", "tags": ["emerging tech"], "speakerPageId": 4395 },
-  { "id": "gayle-silverman", "name": "Gayle Silverman", "title": "Developing products & people with pragmatism", "company": null, "tags": [], "speakerPageId": 4506 },
-  { "id": "jenny-richards", "name": "Jenny Richards", "title": "Principal of Strategy and Execution", "company": "Rebel 75", "tags": ["leadership"], "speakerPageId": 4397 },
-  { "id": "jeremy-kahn", "name": "Jeremy Kahn", "title": "Senior Software Engineer", "company": "Stord", "tags": ["emerging tech"], "speakerPageId": 4380 },
-  { "id": "jessie-shternshus", "name": "Jessie Shternshus", "title": "CEO", "company": "The Improv Effect", "tags": [], "speakerPageId": 4418 },
-  { "id": "kyle-mccluskey", "name": "Kyle McCluskey", "title": "Data Engineering/ML Leader", "company": "TXI", "tags": ["AI engineering"], "speakerPageId": 4412 },
-  { "id": "mark-rickmeier", "name": "Mark Rickmeier", "title": "CEO, Founder of Walkshop", "company": "TXI", "tags": ["data"], "speakerPageId": 4405 },
-  { "id": "nieky-allen", "name": "Nieky Allen", "title": "Senior Software Architect", "company": "Slalom Build", "tags": ["architecture"], "speakerPageId": 4424 },
-  { "id": "phil-borel", "name": "Phil Borel", "title": "Engineering Manager", "company": "RIVET", "tags": ["AI engineering", "productivity"], "speakerPageId": 4393 },
-  { "id": "rafal-truszkowski", "name": "Rafał Truszkowski", "title": "Software Engineering Lead", "company": null, "tags": [], "speakerPageId": 4509 },
-  { "id": "roberto-perez-alcolea", "name": "Roberto Perez Alcolea", "title": "Software Engineer", "company": "Netflix", "tags": ["architecture"], "speakerPageId": 4384 },
-  { "id": "sanskriti-lamsal", "name": "Sanskriti Lamsal", "title": "Forward Deployed AI Engineer", "company": null, "tags": ["AI engineering"], "speakerPageId": 4524 },
-  { "id": "serena-huang", "name": "Serena H. Huang", "title": "Founder", "company": "Data with Serena", "tags": [], "speakerPageId": 4481 },
-  { "id": "tanarra-schneider", "name": "Tanarra Schneider", "title": "Founder", "company": "Rebel 75", "tags": ["leadership"], "speakerPageId": 4396 },
-  { "id": "victory-omole", "name": "Victory Omole", "title": "Quantum Software Engineer", "company": "Infleqtion", "tags": ["emerging tech"], "speakerPageId": 4408 },
-  { "id": "wil-mckenney", "name": "Wil Mckenney", "title": "Software Engineer", "company": "Capital One", "tags": ["AI engineering"], "speakerPageId": 4394 }
+  {
+    "id": "scott-hanselman",
+    "name": "Scott Hanselman",
+    "title": "VP, Member of Technical Staff",
+    "company": "Microsoft/GitHub",
+    "tags": [
+      "AI engineering",
+      "productivity"
+    ],
+    "speakerPageId": 4333,
+    "bio": "Scott has been a developer for over 30 years and has been blogging at https://hanselman.com for over 20 years! He works in as a VP, Member of Technical Staff at Microsoft CoreAI/GitHub out of his home office in Portland, Oregon. Scott has been podcasting for more than 1000 episodes of http://hanselminutes.com and over 750 episodes of http://www.azurefriday.com. He's written a number of technical books and spoken in person to over one million developers worldwide! He's also on TikTok, which was very likely a huge mistake.",
+    "portraitUrl": "https://files.gotocon.com/uploads/portraits/conference_speakers/4333/square_large/scott_hanselman_conference_142_1776776700.png",
+    "profileUrl": "https://gotochgo.com/accelerate-chicago-2026/speakers/4333"
+  },
+  {
+    "id": "alistair-cockburn",
+    "name": "Alistair Cockburn",
+    "title": "Co-authored the Agile Manifesto",
+    "company": null,
+    "tags": [
+      "software architecture",
+      "quality"
+    ],
+    "speakerPageId": 4325,
+    "bio": "Dr. Alistair Cockburn (pronounced Cō-burn) was voted one of the “All-Time Top 150 i-Technology Heroes” for his work in creating and steering Agile software development. He co-authored the Manifesto for Agile Software Development and the “Declaration of Interdependence,” created the first Agile Software Development Conference, co-founded the Agile Project Leadership Network, served on the board of the AgileAlliance, designed the Crystal family of agile methodologies, and co-founded the International Consortium for Agile. Three of his books have won Jolt awards and been listed in “The Top 100 Best Software Books of All Time”. He consistently receives high ratings for his presentations and courses.",
+    "portraitUrl": "https://files.gotocon.com/uploads/portraits/conference_speakers/4325/square_large/alistair_cockburn_conference_142_1776776707.png",
+    "profileUrl": "https://gotochgo.com/accelerate-chicago-2026/speakers/4325"
+  },
+  {
+    "id": "nathen-harvey",
+    "name": "Nathen Harvey",
+    "title": "DORA Lead and Product Manager",
+    "company": "Google Cloud",
+    "tags": [
+      "productivity",
+      "AI engineering"
+    ],
+    "speakerPageId": 4336,
+    "bio": "Nathen Harvey leads the DORA team at Google Cloud. He leverages industry-shaping research to drive product strategy and help organizations improve software delivery speed, stability, and the developer experience. A frequent speaker on DevOps and AI, Nathen is dedicated to building solutions that empower technical communities. He co-authored multiple DORA reports and contributed to \"97 Things Every Cloud Engineer Should Know\" published by O’Reilly in 2020.\"",
+    "portraitUrl": "https://files.gotocon.com/uploads/portraits/conference_speakers/4336/square_large/nathen_harvey_conference_142_1776776727.png",
+    "profileUrl": "https://gotochgo.com/accelerate-chicago-2026/speakers/4336"
+  },
+  {
+    "id": "bret-fisher",
+    "name": "Bret Fisher",
+    "title": "Docker Captain and Cloud Native Ambassador",
+    "company": null,
+    "tags": [
+      "security",
+      "quality"
+    ],
+    "speakerPageId": 4335,
+    "bio": "Bret’s a Docker Captain, a Cloud Native Ambassador, a DevOps, container, and CI/CD trainer, consultant, speaker, and content creator. For 30 years he’s built and operated distributed systems.\n\nStarting in 2025, Bret turned his focus to finding the successful patterns that DevOps, CI/CD, and platform engineers were finding in adopting AI LLMs in their workflows. He’s now focused on consulting, training, and community building around how we can improve our SDLC beyond AI coding assistants.\n\nFor a decade, Bret’s courses, live workshops, and conference talks on containers and DevOps have reached more than 400,000 people worldwide.\n\nFor the past 15 years, he’s consulted and advised companies big and small, digging into DevOps projects and leading teams to \"containerize\" their apps and systems, and to improve their deployment speed, resiliency, metrics, and awareness. Much of Bret’s focus with organizations over the last decade has been automating their container pipelines. And because he’s an Eagle Scout, Bret likes to leave any CI/CD platform better than he found it (a Scout motto)🤚.\n\nBret hosts the “DevOps and Docker Talk” podcast, and launched the “Agentic DevOps” podcast in 2025.\n\nBret basically spends his days helping people and giving high fives. Made with ❤️ in Virginia Beach, USA.",
+    "portraitUrl": "https://files.gotocon.com/uploads/portraits/conference_speakers/4335/square_large/bret_fisher_conference_142_1776776735.png",
+    "profileUrl": "https://gotochgo.com/accelerate-chicago-2026/speakers/4335"
+  },
+  {
+    "id": "mike-amundsen",
+    "name": "Mike Amundsen",
+    "title": "Independent author, speaker, trainer, advisor",
+    "company": null,
+    "tags": [
+      "AI engineering",
+      "architecture"
+    ],
+    "speakerPageId": 4363,
+    "bio": "An internationally known author and speaker, Mike Amundsen travels the world consulting and talking about network architecture, web development, and the intersection of technology and society. He works with companies large and small to help them capitalize on the opportunities, APIs and microservices present for both consumers and the enterprise.\n\nMike is a frequent speaker at conferences and events, and has written numerous books on web architecture and API design. In addition to his writing and speaking, Mike is an active member of the technology community, and has served on the board of the OpenAPI Initiative and the API Academy. He is also a former Principal API Architect at CA Technologies, where he helped to develop and promote the company's API strategy. Mike is a specialist in API design and development, and has played an integral role in shaping the modern web API landscape.\n\nTopic focus: Architecture, APIs and microservices\n\nCheck out some of Mike’s past talks:\n\nGOTO Chicago 2020 - GraphQL, gRPC and REST, Oh My! : A Method for Unified API Design\nGOTO Chicago 2019 - Discovering RESTful Web Microservices\n\nA few of Mike’s books:\n\nBuilding Hypermedia APIs with HTML5 and Node\nRESTful Web APIs\nMicroservice Architecture\nRESTful Web API Patterns and Practices Cookbook",
+    "portraitUrl": "https://files.gotocon.com/uploads/portraits/conference_speakers/4363/square_large/mike_amundsen_conference_142_1776776745.png",
+    "profileUrl": "https://gotochgo.com/accelerate-chicago-2026/speakers/4363"
+  },
+  {
+    "id": "diana-montalion",
+    "name": "Diana Montalion",
+    "title": "Principal Systems Architect",
+    "company": "Mentrix",
+    "tags": [
+      "architecture"
+    ],
+    "speakerPageId": 4372,
+    "profileUrl": "https://gotochgo.com/accelerate-chicago-2026/speakers/4372"
+  },
+  {
+    "id": "cedric-hurst",
+    "name": "Cedric Hurst",
+    "title": "Principal & Lead Software Engineer",
+    "company": "Spantree",
+    "tags": [
+      "AI engineering",
+      "architecture"
+    ],
+    "speakerPageId": 4342,
+    "bio": "Cedric Hurst is the Founder and CEO of Spantree, a Chicago-based engineering consultancy now operating as a business unit of Trifork, the company behind GOTO conferences. Over 15 years he built Spantree into a team known for hard, data-intensive problems: real-time options trading platforms, computer vision and spatial computing systems, and industrial inspection platforms, and large-scale search and data infrastructure.\n\nHe now leads technology strategy for Trifork's North American operations. His team at Spantree has gone all-in on agentic development. Every engineer runs a personal AI agent that manages their coding workflows, communications, and project context. Cedric developed Fluent Workshop, an intensive training program that has walked professional engineering teams through the transition from casual AI tool use to agentic development in production.\n\nHe has spent the last two years in Claude Code, MCP servers, multi-agent orchestration, and the day-to-day reality of deploying autonomous AI systems in regulated industries. He builds software through late night Discord messages more often than he'd like to admit.",
+    "portraitUrl": "https://files.gotocon.com/uploads/portraits/conference_speakers/4342/square_large/cedric_hurst_conference_142_1776776761.png",
+    "profileUrl": "https://gotochgo.com/accelerate-chicago-2026/speakers/4342"
+  },
+  {
+    "id": "tim-berglund",
+    "name": "Tim Berglund",
+    "title": "VP Developer Relations",
+    "company": "IBM",
+    "tags": [
+      "architecture"
+    ],
+    "speakerPageId": 4334,
+    "bio": "Tim serves as the VP Developer Relations at IBM, where he and his team work to make streaming data and its emerging toolset accessible to all developers.\n\nHe is a regular speaker at conferences and a presence on YouTube explaining complex technology topics in an accessible way. He lives with his wife in Arvada CO, USA.\n\nHe has three grown children, three step-children, and five grandchildren.",
+    "portraitUrl": "https://files.gotocon.com/uploads/portraits/conference_speakers/4334/square_large/tim_berglund_conference_142_1776776817.png",
+    "profileUrl": "https://gotochgo.com/accelerate-chicago-2026/speakers/4334"
+  },
+  {
+    "id": "eric-johnson",
+    "name": "Eric Johnson",
+    "title": "Principal Developer Advocate",
+    "company": "AWS",
+    "tags": [
+      "Event Driven Architecture"
+    ],
+    "speakerPageId": 4385,
+    "bio": "Eric Johnson from AWS is passionate about serverless and enjoys helping developers understand how serverless technologies introduces a major paradigm shift in how they approach building and running applications at massive scale with minimal administration overhead. He is also a brilliant conference speaker.\n\nPrior to this, Eric has worked as a developer, solutions architect and AWS Evangelist for an AWS partner company. He describes himself as a highly skilled serverless developer with a passion to teach others.\n\nCheck out some of Eric’s past talks:\n\nGOTO Amsterdam 2019 - Attitude of Iteration\nGOTO Copenhagen 2019 - Building a \"Backend-less\" URL Shortener",
+    "portraitUrl": "https://files.gotocon.com/uploads/portraits/conference_speakers/4385/square_large/eric_johnson_conference_142_1776776839.png",
+    "profileUrl": "https://gotochgo.com/accelerate-chicago-2026/speakers/4385"
+  },
+  {
+    "id": "sam-smith",
+    "name": "Sam Smith",
+    "title": "Senior Staff Accessibility Lead",
+    "company": "Coinbase",
+    "tags": [
+      "AI engineering"
+    ],
+    "speakerPageId": 4398,
+    "bio": "Sam Smith is an accessibility lead at Coinbase, where he focuses on inclusive design and building experiences everyone can use. With over 11 years of experience in the field, Sam has a proven track record of building accessibility from the ground up, having built and scaled the first formal accessibility programs at both Workday and Coinbase.\n\nCurrently, Sam is dedicated to leveraging AI to break down digital barriers and increase accessibility at scale. Sam believes that AI isn't just a productivity tool, but a transformative force for equality in the financial ecosystem. A firm advocate for systemic change, Sam combines deep technical expertise with a passion for creating products usable by everyone, regardless of ability.",
+    "portraitUrl": "https://files.gotocon.com/uploads/portraits/conference_speakers/4398/square_large/sam_smith_conference_142_1776776869.png",
+    "profileUrl": "https://gotochgo.com/accelerate-chicago-2026/speakers/4398"
+  },
+  {
+    "id": "pj-hagerty",
+    "name": "PJ Hagerty",
+    "title": "Head of Developer and Community Relations",
+    "company": "GitButler",
+    "tags": [],
+    "speakerPageId": 4317,
+    "profileUrl": "https://gotochgo.com/accelerate-chicago-2026/speakers/4317"
+  },
+  {
+    "id": "cole-medin",
+    "name": "Cole Medin",
+    "title": "Founder",
+    "company": "Dynamous AI",
+    "tags": [
+      "AI engineering",
+      "quality"
+    ],
+    "speakerPageId": 4318,
+    "bio": "Cole Medin is a tech leader and educator who leverages AI to solve real business problems. He has built and scaled AI solutions across multiple ventures - from custom agent architectures to enterprise RAG systems and local AI deployments.\n\nHis biggest passion is teaching other engineers how to leverage AI effectively. He runs a private AI community and a YouTube channel that breaks down complex AI concepts into practical, hands-on guides and courses. Cole's content and training cover both building AI agents and leveraging AI coding assistants in ways that truly scale.",
+    "portraitUrl": "https://files.gotocon.com/uploads/portraits/conference_speakers/4318/square_large/cole_medin_conference_142_1776776904.png",
+    "profileUrl": "https://gotochgo.com/accelerate-chicago-2026/speakers/4318"
+  },
+  {
+    "id": "travis-frisinger",
+    "name": "Travis Frisinger",
+    "title": "Head of Agentic AI",
+    "company": "8th Light",
+    "tags": [
+      "AI engineering",
+      "architecture"
+    ],
+    "speakerPageId": 4391,
+    "bio": "Focused on helping organizations adopt AI in ways that actually change outcomes, not just demos. His work centers on aligning product decisions, delivery systems, and operational trust to shorten time-to-value at scale.",
+    "portraitUrl": "https://files.gotocon.com/uploads/portraits/conference_speakers/4391/square_large/travis_frisinger_conference_142_1776776915.png",
+    "profileUrl": "https://gotochgo.com/accelerate-chicago-2026/speakers/4391"
+  },
+  {
+    "id": "advait-patel",
+    "name": "Advait Patel",
+    "title": "Senior Site Reliability Engineer",
+    "company": "Broadcom",
+    "tags": [
+      "security",
+      "AI engineering"
+    ],
+    "speakerPageId": 4409,
+    "bio": "Senior Site Reliability Engineer at Broadcom",
+    "portraitUrl": "https://files.gotocon.com/uploads/portraits/conference_speakers/4409/square_large/advait_patel_conference_142_1776776931.png",
+    "profileUrl": "https://gotochgo.com/accelerate-chicago-2026/speakers/4409"
+  },
+  {
+    "id": "aubrey-chipman",
+    "name": "Aubrey Chipman",
+    "title": "Senior Engineer",
+    "company": "Netflix",
+    "tags": [
+      "architecture"
+    ],
+    "speakerPageId": 4517,
+    "bio": "Aubrey is a senior software engineer at Netflix, where she helps shape the developer experience for thousands of engineers working on JVM-based applications and services. As part of the JVM Ecosystem Team in the Developer Productivity Organization, she builds and maintains the infrastructure behind reliable builds, smart dependency management, and scalable test tooling—leveraging technologies like Gradle, Nebula, and Java.\n\nAubrey is a strong advocate for developer productivity and clarity in complex systems. She works hands-on to improve build performance with tools like Gradle Enterprise, build caching, and test distribution, while also contributing to the evolution of Netflix’s internal plugin ecosystem. With a passion for clean builds and fewer flaky tests, she empowers engineers to move faster and ship with confidence, and she is passionate about building tools that are both powerful and delightful to use.",
+    "portraitUrl": "https://files.gotocon.com/uploads/portraits/conference_speakers/4517/square_large/aubrey_chipman_conference_142_1780989665.jpeg",
+    "profileUrl": "https://gotochgo.com/accelerate-chicago-2026/speakers/4517"
+  },
+  {
+    "id": "brian-martin",
+    "name": "Brian Martin",
+    "title": "Chief AI Product Owner, Senior Research Fellow",
+    "company": "AbbVie",
+    "tags": [
+      "data"
+    ],
+    "speakerPageId": 4406,
+    "bio": "Brian joined AbbVie in 2018 as the head of the newly formed RAIDERS team within Research & Development’s Information Research division, focused on accelerating, scaling, and amplifying the work of AbbVie’s R&D community using Artificial Intelligence technologies like machine learning, deep learning, graph computation, and cognitive computing. Brian is a part of the leadership team building and directing the AbbVie R&D Convergence Hub (ARCH) as part of the R&D Convergence initiative and a member of the ACOS Scientific Innovation Council. Brian came to AbbVie after spending five years in technology consulting across many industries, and over a decade of additional experience before that working in trading and financial markets technology. During his consulting time, Brian was the architect of the United States’ Common Securitization Platform and the technology founder of Publicis.Sapient’s AI practice. While his primary focus is AI technologies, he was also a co-founder of the QuPharm quantum computing community and the Pistoia/QED-C Quantum Community of Interest. He is a frequent presenter at conferences on topics as diverse as optical networking, quantum computing, blockchain, cognitive architecture, and other emerging technologies that are all part of digital transformation.\n\nBrian holds a B.S. degree in Computer and Cognitive Science from Alma College and a M.S in Computer Science from the University of Chicago. He is a board member for the Chicago Innovative Executives League and for the Mundelein High School Business Incubator program. He has been involved with the Creative Destruction Lab at the University of Toronto’s Rotman School and as a panelist/reviewer for the National Science Foundation Secure and Trusted Cyberspace grant division. Brian lives in Lake Bluff, Illinois with his wife and four children.",
+    "portraitUrl": "https://files.gotocon.com/uploads/portraits/conference_speakers/4406/square_large/brian_martin_conference_142_1776776950.png",
+    "profileUrl": "https://gotochgo.com/accelerate-chicago-2026/speakers/4406"
+  },
+  {
+    "id": "carl-anderson",
+    "name": "Carl Anderson",
+    "title": "Software Engineering Director",
+    "company": "Slalom Build",
+    "tags": [
+      "emerging tech"
+    ],
+    "speakerPageId": 4395,
+    "portraitUrl": "https://files.gotocon.com/uploads/portraits/conference_speakers/4395/square_large/carl_anderson_conference_142_1776776961.png",
+    "profileUrl": "https://gotochgo.com/accelerate-chicago-2026/speakers/4395"
+  },
+  {
+    "id": "gayle-silverman",
+    "name": "Gayle Silverman",
+    "title": "Developing products & people with pragmatism",
+    "company": null,
+    "tags": [],
+    "speakerPageId": 4506,
+    "bio": "Gayle Silverman is a Principal, Product Delivery Lead, specializing in digital product engagements at the intersection of innovation and practicality. Her passion is building strong teams through pragmatic communication.\n\nGayle is a product advocate, delivery leader, and mentor with 10+ years’ experience shepherding product, support, and implementation initiatives. In addition to being a strategic advisor, she is a volunteer instructor at Black Diamond Charities, an organization working to educate veterans to become project managers.\n\nWhile away from her desk, Gayle enjoys ambling along the 606 trail, reading the first third of a ridiculous amount of books, and finding new neighborhood restaurants.",
+    "portraitUrl": "https://files.gotocon.com/uploads/portraits/conference_speakers/4506/square_large/gayle_silverman_conference_142_1779784189.png",
+    "profileUrl": "https://gotochgo.com/accelerate-chicago-2026/speakers/4506"
+  },
+  {
+    "id": "jenny-richards",
+    "name": "Jenny Richards",
+    "title": "Principal of Strategy and Execution",
+    "company": "Rebel 75",
+    "tags": [
+      "leadership"
+    ],
+    "speakerPageId": 4397,
+    "bio": "Jenny Richards has spent her career being the person accountable for making engineers, product, and design actually deliver together — at Tableau, Microsoft, and Expedia, and across startups where the margin for misalignment is zero.\n\nAs a Product and Program Manager, she wasn't consulting on the process. She was in it, translating between disciplines, managing the places where priorities collide and timelines get honest. She knows the difference between a team that's aligned and a team that thinks it's aligned — because she's been the one holding the bag when those two things weren't the same.\n\nShe's now Principal of Strategy and Execution at Rebel 75. The title is new. The problem she's solving isn't.",
+    "portraitUrl": "https://files.gotocon.com/uploads/portraits/conference_speakers/4397/square_large/jenny_richards_conference_142_1781197416.jpg",
+    "profileUrl": "https://gotochgo.com/accelerate-chicago-2026/speakers/4397"
+  },
+  {
+    "id": "jeremy-kahn",
+    "name": "Jeremy Kahn",
+    "title": "Senior Software Engineer",
+    "company": "Stord",
+    "tags": [
+      "emerging tech"
+    ],
+    "speakerPageId": 4380,
+    "bio": "Jeremy Kahn is an experienced software engineer who has worked across a wide range of domains, including healthcare, livestreaming, and e-commerce. He lives his professional life according to the ethos of Tron: \"I fight for the users.\"\n\nJeremy is also a prolific open-source contributor. He has published open-source code for over 15 years and maintains a variety of widely used projects such as Chitchatter (a decentralized P2P chat app), Shifty (a high-performance web animation library), and Farmhand (a web-based game for farmers). Lately, he's been exploring local AI and how to build alternatives to proprietary, cloud-based solutions.",
+    "portraitUrl": "https://files.gotocon.com/uploads/portraits/conference_speakers/4380/square_large/jeremy_kahn_conference_142_1776776974.png",
+    "profileUrl": "https://gotochgo.com/accelerate-chicago-2026/speakers/4380"
+  },
+  {
+    "id": "jessie-shternshus",
+    "name": "Jessie Shternshus",
+    "title": "CEO",
+    "company": "The Improv Effect",
+    "tags": [],
+    "speakerPageId": 4418,
+    "bio": "Jessie Shternshus is the Founder and CEO of The Improv Effect, where she helps individuals, teams, and organizations unlock their potential through curiosity, communication, and collaboration.\n\nKnown for her energetic and interactive approach, Jessie partners with leaders to shift mindsets, strengthen communication, and build cultures where people can think creatively and work better together. Her work blends applied improvisation with real-world business challenges, creating experiences that are both engaging and immediately applicable.\n\nShe has worked with global organizations including The United Nations, Netflix, Ocean Spray, Mayo Clinic, Macy’s, Johnson and Johnson, Walgreens, Capital One, Adecco, and many more.\n\nJessie has been a keynote speaker at conferences worldwide.\n\nShe is the co-author of CTRLShift: 50 Games for 50 Days Like Today and No More Meetings: Unlearn Bored Room Practices to Change the Way We Connect.",
+    "portraitUrl": "https://files.gotocon.com/uploads/portraits/conference_speakers/4418/square_large/jessie_shternshus_conference_142_1776776984.png",
+    "profileUrl": "https://gotochgo.com/accelerate-chicago-2026/speakers/4418"
+  },
+  {
+    "id": "kyle-mccluskey",
+    "name": "Kyle McCluskey",
+    "title": "Data Engineering/ML Leader",
+    "company": "TXI",
+    "tags": [
+      "AI engineering"
+    ],
+    "speakerPageId": 4412,
+    "bio": "Kyle McCluskey is a Lead AI Solutions Engineer here at TXI. Kyle bridges the gap between AI technology and real business outcomes, working alongside client teams to build scalable, production-ready data systems that go beyond pilots. With a background in computational linguistics, a master's degree in AI, and over a decade launching data engineering teams, Kyle brings both technical depth and practical judgment to every engagement.",
+    "portraitUrl": "https://files.gotocon.com/uploads/portraits/conference_speakers/4412/square_large/kyle_mccluskey_conference_142_1776776995.png",
+    "profileUrl": "https://gotochgo.com/accelerate-chicago-2026/speakers/4412"
+  },
+  {
+    "id": "mark-rickmeier",
+    "name": "Mark Rickmeier",
+    "title": "CEO, Founder of Walkshop",
+    "company": "TXI",
+    "tags": [
+      "data"
+    ],
+    "speakerPageId": 4405,
+    "bio": "Mark Rickmeier is the Chief Executive Officer TXI, a digital product innovation firm that specializes in UX research, design, and custom software development. Over the past 20 years, he has created more than 100 mobile apps, custom-built web applications, and intuitive user experiences. And in 2023, celebrated the firm's 20th anniversary by making it 100% employee owned.\n\nIn 2014, he founded the Kermit Collective, a global community of 35 software consulting companies who are all competitors, but come together to share insights and swap ideas on how to effectively run a consulting organization.\n\nIn 2017, he founded “Walkshop” as a multi-day hiking + leadership development experience for executives, thinkers, and entrepreneurs. These long distance hikes around the world help to generate new ideas and industry connections as leaders think on their feet.\n\nHe is the author of the Sticky Note Game, the creator of the Inclusion Meeting Cards, the Business Innovation chair for Forbes executive council, and the Company Culture chair for Fast Company's executive board.\n\nLearn more and contact at https://markrickmeier.com/\n\nCheck out Mark’s past talk:\n\nGOTO Chicago 2018 - How I almost lost my entire company in the first year on the job\nGOTOpia Chicago 2021 - Adopting an Experimental Mindset\nGOTO Copenhagen 2024 - The Experience of Experience Design",
+    "portraitUrl": "https://files.gotocon.com/uploads/portraits/conference_speakers/4405/square_large/mark_rickmeier_conference_142_1776777004.png",
+    "profileUrl": "https://gotochgo.com/accelerate-chicago-2026/speakers/4405"
+  },
+  {
+    "id": "nieky-allen",
+    "name": "Nieky Allen",
+    "title": "Senior Software Architect",
+    "company": "Slalom Build",
+    "tags": [
+      "architecture"
+    ],
+    "speakerPageId": 4424,
+    "bio": "Nieky is a web enthusiast and technologist specializing in modern web development techniques and tooling. With passions for UI/UX design, systems architecture, serverless & edge runtimes, and all things TypeScript, he finds purpose in implementing intuitive, enjoyable applications and tools for general consumers and fellow developers.\n\nAs a Senior Software Architect at Slalom Build, Nieky leads teams in delivering scalable, innovative solutions across various industries. His recent work primarily focuses on mobile & consumer platform API development, secure information sharing, and exploring ethical applications of generative AI. Outside of his work, Nieky enjoys contributing to the developer community by writing technical articles, aiming to share knowledge and encourage thoughtful innovation.",
+    "portraitUrl": "https://files.gotocon.com/uploads/portraits/conference_speakers/4424/square_large/nieky_allen_conference_142_1777381864.png",
+    "profileUrl": "https://gotochgo.com/accelerate-chicago-2026/speakers/4424"
+  },
+  {
+    "id": "phil-borel",
+    "name": "Phil Borel",
+    "title": "Engineering Manager",
+    "company": "RIVET",
+    "tags": [
+      "AI engineering",
+      "productivity"
+    ],
+    "speakerPageId": 4393,
+    "bio": "Phil Borel is a product-minded engineering leader with 12+ years of experience in early & growth-stage software companies. He's laid the groundwork as employee #1 and operated at scale as employee #10,000 - and believes success at any size requires the same things: highly-motivated teams, deep customer focus, and rapid iteration. Today, he's exploring agentic development workflows to ship higher-quality software, faster.\n\nPhil is an Engineering Manager at RIVET, a Detroit-based construction tech SaaS company. He also advises early-stage startups, is deeply invested in the midwest tech ecosystem, and organizes the Detroit Developers meetup. He writes about his learnings at https://www.detroitdevelopers.com.",
+    "portraitUrl": "https://files.gotocon.com/uploads/portraits/conference_speakers/4393/square_large/phil_borel_conference_142_1776777022.png",
+    "profileUrl": "https://gotochgo.com/accelerate-chicago-2026/speakers/4393"
+  },
+  {
+    "id": "rafal-truszkowski",
+    "name": "Rafał Truszkowski",
+    "title": "Software Engineering Lead",
+    "company": null,
+    "tags": [],
+    "speakerPageId": 4509,
+    "portraitUrl": "https://files.gotocon.com/uploads/portraits/conference_speakers/4509/square_large/rafa%C5%82_truszkowski_conference_142_1779784202.png",
+    "profileUrl": "https://gotochgo.com/accelerate-chicago-2026/speakers/4509"
+  },
+  {
+    "id": "roberto-perez-alcolea",
+    "name": "Roberto Perez Alcolea",
+    "title": "Software Engineer",
+    "company": "Netflix",
+    "tags": [
+      "architecture"
+    ],
+    "speakerPageId": 4384,
+    "bio": "Roberto Perez Alcolea is a Software Engineer at Netflix who focuses on the JVM development lifecycle, spanning build automation and testing infrastructure. With a deep appreciation for the JVM ecosystem and Build Tools, he works on improving how Netflix engineers build, test, and publish software.\n\nRoberto contributes to maintaining Netflix's build-package-publish infrastructure through Nebula (Gradle) plugins, helping with dependency management and artifact publishing across the organization's projects. He's also involved in testing strategy initiatives, including working on E2E testing frameworks that incorporate observability and failure analysis.\n\nRoberto advocates for modern integration testing practices and helps teams adopt container-based testing approaches, which led him to become a Testcontainers Community Champion. He enjoys sharing knowledge at conferences, contributing to open-source projects, and collaborating with engineers on testing best practices.\n\nRoberto believes strongly in community-driven innovation and enjoys both learning from fellow engineers and sharing his experiences to help advance the broader JVM and testing communities.",
+    "portraitUrl": "https://files.gotocon.com/uploads/portraits/conference_speakers/4384/square_large/roberto%20perez_alcolea_conference_142_1776777031.png",
+    "profileUrl": "https://gotochgo.com/accelerate-chicago-2026/speakers/4384"
+  },
+  {
+    "id": "sanskriti-lamsal",
+    "name": "Sanskriti Lamsal",
+    "title": "Forward Deployed AI Engineer",
+    "company": null,
+    "tags": [
+      "AI engineering"
+    ],
+    "speakerPageId": 4524,
+    "portraitUrl": "https://files.gotocon.com/uploads/portraits/2266/square_large/sanskriti_lamsal_1780905002.jpeg",
+    "profileUrl": "https://gotochgo.com/accelerate-chicago-2026/speakers/4524"
+  },
+  {
+    "id": "serena-huang",
+    "name": "Serena H. Huang",
+    "title": "Founder",
+    "company": "Data with Serena",
+    "tags": [],
+    "speakerPageId": 4481,
+    "bio": "Dr. Serena H. Huang is an AI executive, keynote speaker, and founder of Data with Serena. She has led AI and People Analytics at organizations including PayPal, Kraft Heinz, and GE, where she drove over $100 million in measurable business impact across a 300,000-person global enterprise.\n\nHer work focuses on the intersection of AI, leadership, and the human skills that become more valuable as technology advances. She is the author of The Inclusion Equation: Leveraging Data and AI for Organizational Diversity and Wellbeing (Wiley, 2025), and her insights have been featured in Fast Company, Barron’s, and CNET.\n\nToday, Dr. Huang advises organizations on building AI systems and cultures that perform and that people actually trust.",
+    "portraitUrl": "https://files.gotocon.com/uploads/portraits/conference_speakers/4481/square_large/serena%20h._huang_conference_142_1779784242.png",
+    "profileUrl": "https://gotochgo.com/accelerate-chicago-2026/speakers/4481"
+  },
+  {
+    "id": "tanarra-schneider",
+    "name": "Tanarra Schneider",
+    "title": "Founder",
+    "company": "Rebel 75",
+    "tags": [
+      "leadership"
+    ],
+    "speakerPageId": 4396,
+    "bio": "Tanarra Schneider has spent her career at the fault line between design and engineering — not observing it, but being accountable for it.\n\nAs Director of Front End Design & Development at Playboy, she ran both sides: design and dev, in direct partnership with the Director of Engineering, across a portfolio of businesses. As Managing Director in Accenture's Design and Innovation practice, she led teams of UX designers, visual designers, and creative technologists — working hand-in-hand with engineering to ship work that required all of it to function together.\n\nShe knows what it looks like when that relationship works. She knows what it costs when it doesn't. Both of those things are expensive, and only one of them is obvious.\n\nShe's now the founder of Rebel 75, a leadership and culture strategy consultancy. The work is different; the problem is the same: the human infrastructure underneath the technical strategy is almost always where things break.",
+    "portraitUrl": "https://files.gotocon.com/uploads/portraits/conference_speakers/4396/square_large/tanarra_schneider_conference_142_1781177933.jpeg",
+    "profileUrl": "https://gotochgo.com/accelerate-chicago-2026/speakers/4396"
+  },
+  {
+    "id": "victory-omole",
+    "name": "Victory Omole",
+    "title": "Quantum Software Engineer",
+    "company": "Infleqtion",
+    "tags": [
+      "emerging tech"
+    ],
+    "speakerPageId": 4408,
+    "bio": "Quantum Software Engineer at Infleqtion",
+    "portraitUrl": "https://files.gotocon.com/uploads/portraits/conference_speakers/4408/square_large/victory_omole_conference_142_1776777051.png",
+    "profileUrl": "https://gotochgo.com/accelerate-chicago-2026/speakers/4408"
+  },
+  {
+    "id": "wil-mckenney",
+    "name": "Wil Mckenney",
+    "title": "Software Engineer",
+    "company": "Capital One",
+    "tags": [
+      "AI engineering"
+    ],
+    "speakerPageId": 4394,
+    "portraitUrl": "https://files.gotocon.com/uploads/portraits/conference_speakers/4394/square_large/william_mckenney_conference_142_1776777057.png",
+    "profileUrl": "https://gotochgo.com/accelerate-chicago-2026/speakers/4394"
+  }
 ]

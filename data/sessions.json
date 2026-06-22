@@ -8,8 +8,13 @@
     "startTime": "10:00",
     "endTime": "17:00",
     "room": "Slalom Office, Aon Center, 37th Floor",
-    "speakers": ["cedric-hurst"],
-    "tags": ["AI engineering", "architecture"],
+    "speakers": [
+      "cedric-hurst"
+    ],
+    "tags": [
+      "AI engineering",
+      "architecture"
+    ],
     "abstract": "A full-day masterclass covering the full abstraction ladder of AI-assisted development: IDE-integrated assistants, coding agents (Claude Code, MCP, multi-agent orchestration), and orchestration agents that manage tools, communications, memory, and workflows."
   },
   {
@@ -21,8 +26,13 @@
     "startTime": "10:00",
     "endTime": "17:00",
     "room": "Slalom Office, Aon Center, 37th Floor",
-    "speakers": ["alistair-cockburn"],
-    "tags": ["software architecture", "quality"],
+    "speakers": [
+      "alistair-cockburn"
+    ],
+    "tags": [
+      "software architecture",
+      "quality"
+    ],
     "abstract": "A full-day masterclass on Hexagonal Architecture (Ports and Adapters) with Alistair Cockburn, the pattern's creator."
   },
   {
@@ -34,9 +44,11 @@
     "startTime": "09:30",
     "endTime": "10:30",
     "room": "The Hall",
-    "speakers": ["jessie-shternshus"],
+    "speakers": [
+      "jessie-shternshus"
+    ],
     "tags": [],
-    "abstract": null
+    "abstract": "Creating Cultures of Collaborative Communication\nOur fast-paced, screen-filled lives leave little room for curiosity. Yet curiosity is what helps us connect deeply, strengthen relationships, and communicate in ways that actually land.\n\nNow, in a world shaped by AI, curiosity matters more than ever.\n\nAs technology accelerates answers, the real advantage comes from asking better questions, building stronger connections, and thinking in more human ways. The leaders and teams who stand out are not just efficient, they are curious, collaborative, and adaptable.\n\nSo what can we do about it?\n\nWe can choose curiosity on purpose.\n\nCuriosity starts conversations. Conversations spark action. Action drives change.\n\nIn this interactive keynote, Jessie Shternshus invites audiences to rethink how they show up in conversations, collaboration, and culture. She introduces the idea of becoming a Curiosity Curator, someone who actively creates space for better questions, stronger connections, and new ways of thinking.\n\nThrough stories, practical tools, and engaging exercises, Jessie shares how to:\n\n- Ask more thoughtful and effective questions\n\n- Connect people and ideas in meaningful ways\n\n- Create environments where collaboration can thrive\n\n- Turn everyday interactions into opportunities for insight and impact\n\nThis talk leaves audiences with powerful tools for becoming more consciously curious."
   },
   {
     "id": "jun23-git-matters",
@@ -47,7 +59,9 @@
     "startTime": "10:45",
     "endTime": "11:30",
     "room": "The Hall",
-    "speakers": ["pj-hagerty"],
+    "speakers": [
+      "pj-hagerty"
+    ],
     "tags": [],
     "abstract": null
   },
@@ -60,9 +74,14 @@
     "startTime": "10:45",
     "endTime": "11:30",
     "room": "Forum",
-    "speakers": ["alistair-cockburn"],
-    "tags": ["software architecture", "quality"],
-    "abstract": null
+    "speakers": [
+      "alistair-cockburn"
+    ],
+    "tags": [
+      "software architecture",
+      "quality"
+    ],
+    "abstract": "Surprisingly, viewing your design as a bureaucracy offers great guidance: Let every subsystem or object say \"Not my job\" or \"No need-to-know.\" With just these two phrases, our internal bureaucracy and anti-bureaucracy reflexes get triggered and we make a rather nice decomposition of responsibilities, making for both a good bureaucracy and good evolution characteristics.\n\nAdditionally, it turns out that the LLMs respond really well to these two phrases. Who would have guessed that they are all read up on bureaucracies??\n\nIn this talk, Alistair Cockburn refreshes domain- and responsibility-driven design with a razor that helps you decide if your objects are \"in alignment\" or not. Some older, some newer designs are examined to see how they naturally come from \"not my job\" and \" no need to know.\""
   },
   {
     "id": "jun23-ai-agent-cloud-access",
@@ -73,9 +92,14 @@
     "startTime": "11:45",
     "endTime": "12:30",
     "room": "The Hall",
-    "speakers": ["advait-patel"],
-    "tags": ["security", "AI engineering"],
-    "abstract": null
+    "speakers": [
+      "advait-patel"
+    ],
+    "tags": [
+      "security",
+      "AI engineering"
+    ],
+    "abstract": "AI agents are moving from demos into production faster than most teams are ready for. And when they get to production, they need credentials. They need access to APIs, databases, storage buckets, and cloud services. That access has to come from somewhere, and right now most teams are handling it the same way they handled service account permissions five years ago: broad enough to work, with every intention of scoping it down later.\n\nLater never comes.\n\nThis talk is for developers and engineers who are building or operating AI-powered applications and want to understand what can go wrong when an agent holds real cloud permissions, and more importantly, what to do about it before something goes wrong rather than after. I'll walk through how adversarial inputs and indirect prompt injection can manipulate an agent into abusing its own credentials, show a live demo of what that looks like in practice on GCP, and then cover the concrete patterns that actually contain the blast radius: minimal-privilege agent identities, behavioral monitoring, and architectural decisions you can make now that make a significant difference later.\n\nNo scare tactics. No vendor pitches. Just practical stuff you can take back and apply to whatever you are building."
   },
   {
     "id": "jun23-stack-cant-refactor",
@@ -86,9 +110,14 @@
     "startTime": "11:45",
     "endTime": "12:30",
     "room": "Forum",
-    "speakers": ["jenny-richards", "tanarra-schneider"],
-    "tags": ["leadership"],
-    "abstract": null
+    "speakers": [
+      "jenny-richards",
+      "tanarra-schneider"
+    ],
+    "tags": [
+      "leadership"
+    ],
+    "abstract": "Human infrastructure for the AI era\n\nYou know what happens when you inherit bad architecture. You spend years debugging it. Mismatched dependencies, unclear ownership, no documentation, no tests. The system does what it was designed to do. You just weren't the one who designed it, and now it's your problem to maintain it. Or worse yet - build on it.\n\nMost engineering teams have the same issue with their human infrastructure. They inherited it. They never designed it. And it's compounding like tech debt.\n\nAs AI accelerates and raw coding skill gets commoditized, the moat is shifting. The organizations that win aren't necessarily the ones with the best models. They're the ones where engineers can actually work together — with each other and with designers, strategists, and clients. To know when there's enough trust to challenge a bad idea, enough clarity to move fast without creating wreckage between people, and enough accountability to keep delivery honest.\n\nThis talk names three failure patterns that quietly take down high-performing engineering teams — the kind that look fi ne on the surface until they're not. It also offers three specifi c, repeatable practices that any engineer or tech leader can begin this week. Tiny, survivable interventions threaded into everyday work.\n\nYou've been thinking about this as a people problem. We're going to argue it's an infrastructure problem. And infrastructure problems have engineering solutions.\n\nKey takeaways\n\n- Why culture is infrastructure — and why inheriting it is just as dangerous as inheriting bad code\n\n- The three failure patterns most common in engineering organizations, and how to spot them before they crash production\n\n- Three specifi c behavioral practices that cost nothing but attention — and compound over time\n\n- A systems lens for diagnosing where your team's human architecture is load-bearing, and where it's quietly failing"
   },
   {
     "id": "jun23-lightning-ai-amplifier",
@@ -99,9 +128,14 @@
     "startTime": "11:45",
     "endTime": "12:30",
     "room": "Hub",
-    "speakers": ["phil-borel"],
-    "tags": ["AI engineering", "productivity"],
-    "abstract": null
+    "speakers": [
+      "phil-borel"
+    ],
+    "tags": [
+      "AI engineering",
+      "productivity"
+    ],
+    "abstract": "Our CEO set a 3x velocity goal. We went all-in on AI coding agents.\nEight months in, here's what actually matters - and it's not the model.\n\nThe DORA 2025 data across 5,000 professionals confirms what we learned\nthe hard way: AI amplifies whatever's already in your codebase. Good\narchitecture becomes great. Three divergent patterns become three\ndivergent patterns generated at scale. A Carnegie Mellon study of 807\nrepos puts numbers on the failure mode: 281% more code in month one,\nvelocity back to baseline by month two, code complexity up 41% -\npermanently.\n\nThis is the story of what we built to avoid that outcome - and\nwhat we're still working on.\n\nCode quality as agent infrastructure. We had three backend patterns.\nThe agent reproduced whichever it found first. We consolidated into a\nstrict layered architecture with defense-in-depth permissions enforced\nat every boundary. The same patterns that make code navigable for new\nengineers make it navigable for agents.\n\nContext engineering that compounds. AI coding agents work best when\nthey have structured, persistent context about your system - not a\nsingle prompt, but an evolving knowledge base the whole team maintains.\nWe built indexed documentation the agent loads on-demand, custom skills\nthat turn multi-step workflows into single commands, and mechanical\nenforcement that catches violations automatically. Documentation drifts.\nLint rules don't.\n\nWhat's not working yet. Multi-agent parallelization requires a level\nof maturity we haven't earned. Context debt is real - documenting what\nlived in engineers' heads takes time we underestimated. And the review\nbottleneck from increased PR volume is stickier than any tooling fix.\n\nYou'll leave with concrete steps you can start Monday: the first files\nto add to your repo, the first skill to try, and how to identify the\nrefactor that will make your codebase agent-navigable."
   },
   {
     "id": "jun23-lightning-state-file",
@@ -112,9 +146,13 @@
     "startTime": "11:45",
     "endTime": "12:30",
     "room": "Hub",
-    "speakers": ["wil-mckenney"],
-    "tags": ["AI engineering"],
-    "abstract": null
+    "speakers": [
+      "wil-mckenney"
+    ],
+    "tags": [
+      "AI engineering"
+    ],
+    "abstract": "AI coding agents are powerful but brittle — they lose context, can’t recover from failures, and fall apart on complex multi-step projects that span multiple files, services, or systems. Most teams reach for longer context windows or multi-agent frameworks. There’s a simpler answer. This talk presents a production-tested pattern using three ideas: skills-based phase orchestration to break complex work into manageable steps, file-persisted state for resumable execution, and build-log feedback loops for self-correction. Walk away with a concrete, framework-free approach to turning unreliable agents into resilient pipelines that can stop, resume, and fix their own mistakes — even on projects too large for a single context window."
   },
   {
     "id": "jun23-keynote-hidden-cures",
@@ -125,9 +163,14 @@
     "startTime": "13:30",
     "endTime": "14:30",
     "room": "The Hall",
-    "speakers": ["brian-martin", "mark-rickmeier"],
-    "tags": ["data"],
-    "abstract": null
+    "speakers": [
+      "brian-martin",
+      "mark-rickmeier"
+    ],
+    "tags": [
+      "data"
+    ],
+    "abstract": "Drug development is one of the most expensive bets in science — and one with a 90% failure rate. But what if the answers to some of medicine's hardest problems are already out there, buried across decades of research, waiting to be connected?\n\nThat's the premise behind Rare Hopes, a self-funded nonprofit built on a remarkable collaboration between tellic LLC's 911-million-edge knowledge graph, AbbVie's applied biomedical research, and TXI Digital's human-centered product design. Together, these partners are using machine learning, Natural Language Processing, and biomedical semantic technology to mine over 53 million scientific documents — surfacing hidden connections that no human researcher could find alone.\n\nIn one striking case, the system linked 15 papers spanning 40 years to identify Ruxolitinib as a potential treatment for Carney Complex — a rare genetic disorder with no known therapy. The AI didn't just find a needle in a haystack. It found a needle no one knew to look for.\n\nBut the insight is only half the story. The other half is what happens when that discovery reaches a patient or a clinician. Raw data doesn't heal people — human experiences do. In this talk, we will explore how the team is translating the power of this knowledge graph into experiences that are intuitive, trustworthy, and genuinely useful for the doctors and patients who need it most.\nThis session explores the full arc — from ontology-driven data architecture to conversational AI interfaces to patient-facing product design — and the hard-won lessons along the way: why domain-specific, curated data matters more than ever in an LLM world, why dashboards are giving way to knowledge systems, and why the most important question in AI-powered healthcare isn't \"what can the model find?\" but \"can the person who needs it actually use what it found?\"\n\nThe cure might already exist. The challenge is building the bridge."
   },
   {
     "id": "jun23-openclaw-install",
@@ -138,8 +181,12 @@
     "startTime": "14:45",
     "endTime": "15:30",
     "room": "The Hall",
-    "speakers": ["cedric-hurst"],
-    "tags": ["AI engineering"],
+    "speakers": [
+      "cedric-hurst"
+    ],
+    "tags": [
+      "AI engineering"
+    ],
     "abstract": null
   },
   {
@@ -151,9 +198,13 @@
     "startTime": "14:45",
     "endTime": "15:30",
     "room": "Forum",
-    "speakers": ["sam-smith"],
-    "tags": ["AI engineering"],
-    "abstract": null
+    "speakers": [
+      "sam-smith"
+    ],
+    "tags": [
+      "AI engineering"
+    ],
+    "abstract": "As Coinbase rapidly adopts AI, we have a responsibility to bake accessibility into our development lifecycle from the start. This talk addresses clear accessibility gaps in AI, from biased algorithms to inaccessible outputs, and presents our proactive strategies to mitigate them. We will cover our work building with accessibility in mind via AI. This session is a call to action to ensure that building with AI doesn’t mean shipping inaccessible experiences.\n\nProactive Inclusion: Embedding Accessibility into the AI Revolution at Coinbase, outlines how Coinbase is moving beyond reactive accessibility by integrating AI into the heart of their development lifecycle. It focuses on shifting from manual auditing to an AI-partnered model that ensures inclusive experiences are built by design rather than as an afterthought.\n\nKey Takeaways\n\n- \nEducate & Streamline: Train AI agents on specialized accessibility knowledge bases to provide 24/7 expert guidance and automate redundant tasks, such as CEFR language proficiency reviews and audit documentation.\n\n- \nFix & Create: Empower accessibility practitioners to use AI agents (like Cursor and Claude) to bypass engineering bottlenecks, allowing them to directly write accessible code and build internal tools.\n\n- \nAutomate & Review: Utilize AI-driven workflows, such as the RAID (Retail AI Developer) GitHub Action, to automatically evaluate pull requests for regressions and review designs for accessibility before they reach production."
   },
   {
     "id": "jun23-github-supply-chain",
@@ -164,9 +215,14 @@
     "startTime": "16:00",
     "endTime": "16:45",
     "room": "The Hall",
-    "speakers": ["bret-fisher"],
-    "tags": ["security", "quality"],
-    "abstract": null
+    "speakers": [
+      "bret-fisher"
+    ],
+    "tags": [
+      "security",
+      "quality"
+    ],
+    "abstract": "Learn how to protect your GitHub from the latest attacks like S1ngularity, Shai-Hulud, and TeamPCP that created headlines about projects like Trivy, Axios, Zapier, PostHog, and more.\n\nSupply chains and maintainers are under threat more than ever (thanks, AI), and we all need to step up our game and look for easy wins in further locking down our GitHub repo settings, GitHub Actions workflows, and ensure our Dependabot and Renovate are keeping our Actions safe. This talk is centered around GitHub Actions, but extends into npm security, necessary security tooling to complement our repos, and automation to warn us before misconfigurations happen."
   },
   {
     "id": "jun23-local-ai",
@@ -177,9 +233,13 @@
     "startTime": "16:00",
     "endTime": "16:45",
     "room": "Forum",
-    "speakers": ["jeremy-kahn"],
-    "tags": ["emerging tech"],
-    "abstract": null
+    "speakers": [
+      "jeremy-kahn"
+    ],
+    "tags": [
+      "emerging tech"
+    ],
+    "abstract": "Claude, Gemini, and ChatGPT are great. But you know what's even better? Total control of AI that runs on your own hardware!\n \n\nSay goodbye to costly API bills, rate limits, message quotas, and corporate surveillance by running open source models locally. Even better: All the software you'll need to do it is free! \n\nThis session will serve as a gentle introduction to the rabbit hole that is local AI and how to get the most out of the devices you already own."
   },
   {
     "id": "jun23-intelligence-infrastructure",
@@ -190,7 +250,9 @@
     "startTime": "16:00",
     "endTime": "16:45",
     "room": "Hub",
-    "speakers": ["diana-montalion"],
+    "speakers": [
+      "diana-montalion"
+    ],
     "tags": [],
     "abstract": null
   },
@@ -203,9 +265,14 @@
     "startTime": "17:00",
     "endTime": "18:00",
     "room": "The Hall",
-    "speakers": ["nathen-harvey"],
-    "tags": ["productivity", "AI engineering"],
-    "abstract": null
+    "speakers": [
+      "nathen-harvey"
+    ],
+    "tags": [
+      "productivity",
+      "AI engineering"
+    ],
+    "abstract": "AI adoption in software development is nearly universal, but the results are anything but. While the industry has moved beyond simple code completion, the promised productivity gains often get lost in downstream chaos. So, what separates the high-performers from the rest?\n\nDrawing on insights from the 2025 DORA State of AI-assisted Software Development report—a study of nearly 5,000 technology professionals—this session will reveal a critical truth: AI's primary role is that of an amplifier. It magnifies the strengths of high-performing organizations and the dysfunctions of struggling ones.\n\nIn this talk, we will go beyond the hype and dive deep into the data to uncover:\n\n- Why a \"legacy bottleneck\" can completely negate AI performance gains, and how loosely coupled architectures are essential for success.\n\n- How Value Stream Management (VSM) acts as a force multiplier for AI, ensuring that localized productivity gains translate into measurable improvements in team and product performance.\n\n- The crucial role of high-quality internal platforms, and why 94% of organizations have adopted platform engineering as the foundation for AI success.\n\n- The surprising human factors at play, including why 30% of developers report little to no trust in AI-generated code, and what the data says about AI's real impact on burnout and developer satisfaction.\n\nYou will leave this session with a clear, data-backed framework for understanding and improving your team's AI adoption strategy. Instead of focusing on just the tools, you'll learn how to identify and address the systemic issues that are holding you back, and how to create an environment where AI can truly amplify your team's success.\""
   },
   {
     "id": "jun24-keynote-hanselman",
@@ -216,9 +283,13 @@
     "startTime": "09:30",
     "endTime": "10:30",
     "room": "The Hall",
-    "speakers": ["scott-hanselman"],
-    "tags": ["productivity"],
-    "abstract": null
+    "speakers": [
+      "scott-hanselman"
+    ],
+    "tags": [
+      "productivity"
+    ],
+    "abstract": "The future does not need fewer junior developers. It needs better systems for helping both people and agents become useful, safe, and trusted participants in the work.\n\nAI is changing how software gets written, but it is also revealing something software teams have always struggled with: context is the real curriculum.\n\nJunior developers are early in career. AI agents are early in context. Both can be surprisingly capable, both can be confidently wrong, and both need structured guidance before they can be trusted with production systems.\n\nIn this keynote, Scott Hanselman takes a practical, demo-driven look at what AI changes in software development and what it does not. Through live demos, real talk, and lessons from recent work with Mark Russinovich in Communications of the ACM, Scott will explore the gap between producing code and understanding systems. He’ll connect the future of AI-assisted development with the future of human talent pipelines, arguing that preceptorship is not nostalgia for a slower era. It is how complex engineering cultures transfer judgment, context, taste, debugging instincts, and responsibility."
   },
   {
     "id": "jun24-ai-coaches",
@@ -229,9 +300,14 @@
     "startTime": "10:45",
     "endTime": "11:30",
     "room": "The Hall",
-    "speakers": ["mike-amundsen"],
-    "tags": ["AI engineering", "architecture"],
-    "abstract": null
+    "speakers": [
+      "mike-amundsen"
+    ],
+    "tags": [
+      "AI engineering",
+      "architecture"
+    ],
+    "abstract": "Generative AI excels at producing answers, but producing one-off answers isn’t the same thing as developing durable capability. Recent research from Anthropic suggests that heavy reliance on generative systems can improve short-term performance while weakening long-term skill formation. That realization isn’t new. Douglas Engelbart argued that computers should augment human intellect, not displace it. J. C. R. Licklider imagined a partnership in reasoning, not a delegation of thought.\n\nIn this talk, Mike Amundsen explores a practical alternative. By separating work into distinct cognitive phases, expanding possibilities, structuring and interrogating ideas, and executing deliberately, we can design interactive AI experiences that strengthen human reasoning instead of bypassing it. AI coaches are one concrete implementation of this approach. Join Mike for an introduction to the skill formation challenge, examine a better pattern for working with AI, and get a live demo of an AI coach in action."
   },
   {
     "id": "jun24-glue-work",
@@ -242,9 +318,11 @@
     "startTime": "10:45",
     "endTime": "11:30",
     "room": "Forum",
-    "speakers": ["gayle-silverman"],
+    "speakers": [
+      "gayle-silverman"
+    ],
     "tags": [],
-    "abstract": null
+    "abstract": "Every team has someone quietly holding everything together. They're onboarding new hires, untangling cross-team miscommunications, nudging people to report time, and proactively helping without being asked. Tanya Reilly called this \"glue work,\" and while it's essential, it often falls invisibly on the same people, every time.\n\nIn this talk, learn how our organization ran a Tournament of Glue Work (a bracket-style exercise spanning four dimensions of team life) to surface and prioritize the hidden labor keeping us afloat. Come see what bubbled to the top, what surprised us, and how naming glue work changed the way we talk about fairness, recognition, and shared responsibility on engineering teams."
   },
   {
     "id": "jun24-qubits-neurons",
@@ -255,9 +333,13 @@
     "startTime": "10:45",
     "endTime": "11:30",
     "room": "Hub",
-    "speakers": ["carl-anderson"],
-    "tags": ["emerging tech"],
-    "abstract": null
+    "speakers": [
+      "carl-anderson"
+    ],
+    "tags": [
+      "emerging tech"
+    ],
+    "abstract": "Quantum computing and AI are converging in surprising ways, from quantum-accelerated ML algorithms to AI-designed quantum circuits. This talk explores how the two are amplifying each other's strengths."
   },
   {
     "id": "jun24-users-reality",
@@ -268,9 +350,11 @@
     "startTime": "11:45",
     "endTime": "12:30",
     "room": "The Hall",
-    "speakers": ["rafal-truszkowski"],
+    "speakers": [
+      "rafal-truszkowski"
+    ],
     "tags": [],
-    "abstract": null
+    "abstract": "AI is making implementation faster. That removes friction that used to give teams time to question assumptions before they became software. The risk is not bad code. It is polished, technically correct code built on the wrong model of how people actually use things.\n\nThis session reframes user empathy as a technical skill for engineers. Not the soft stuff. The reasoning shows up in API design, error states, data freshness, retries, validation, and the prompts engineers give AI before asking it to build. Product defines the destination. Engineering decides how the system behaves when the real world gets messy.\n\nWhen AI can write the happy path quickly, engineering judgment matters more, not less."
   },
   {
     "id": "jun24-tag-publish-hope",
@@ -281,9 +365,14 @@
     "startTime": "11:45",
     "endTime": "12:30",
     "room": "Forum",
-    "speakers": ["aubrey-chipman", "roberto-perez-alcolea"],
-    "tags": ["architecture"],
-    "abstract": null
+    "speakers": [
+      "aubrey-chipman",
+      "roberto-perez-alcolea"
+    ],
+    "tags": [
+      "architecture"
+    ],
+    "abstract": "Think about how carefully we ship applications: staged rollouts, canary analysis, automated rollback, observability at every step. Now think about how we ship libraries: Tag a version. Publish. Hope.\n\nAt Netflix, this blind spot caught up with us across thousands of libraries and 5,000+ repositories. Upgrades broke services overnight because nobody could see the blast radius beforehand. Security patches took days because we couldn't answer \"\"which libraries actually matter.\"\" Teams deprecated libraries with no way to tell consumers \"\"hey, start planning your move.\"\" So we set out to build a paved road for libraries.\n\nOnce we started digging, things got uncomfortable. Many libraries we considered \"\"actively maintained\"\" hadn't had a real human change in over a year, just bots keeping the lights on. We kicked off a major migration and couldn't tell which repos would be affected for over half the fleet. Basic questions, no answers. But the hardest part wasn't technical. It was cultural: how do you bring lifecycle governance to an org that values speed and autonomy without becoming the team everyone routes around?\n\nThis talk is about what we're learning as we build that paved road. It's an ongoing effort, not a finished product. I'll walk through the five things we think it needs: stability signals, compatibility validation, impact visibility, lifecycle communication, and proportional escalation. I'll share why we bet on tools that inform instead of block, why we started small and earned trust before scaling, and why \"\"people decide, tools guide\"\" became our north star.\n\nWe're also still figuring some things out. Where's the line between healthy maintenance and slow-motion abandonment? When should advisory become enforcement? How do you measure library health without turning it into a vanity metric?\n\nWe're done tagging, publishing, and hoping."
   },
   {
     "id": "jun24-lightning-quantum",
@@ -294,9 +383,13 @@
     "startTime": "11:45",
     "endTime": "12:30",
     "room": "Hub",
-    "speakers": ["victory-omole"],
-    "tags": ["emerging tech"],
-    "abstract": null
+    "speakers": [
+      "victory-omole"
+    ],
+    "tags": [
+      "emerging tech"
+    ],
+    "abstract": "What does a quantum software engineer actually do all day? In this talk, I’ll walk through a day in the life of a quantum software engineer, from writing to testing quantum programs. Along the way, I’ll share how quantum development differs from classical software engineering, and where the workflows overlap."
   },
   {
     "id": "jun24-lightning-local-models",
@@ -307,9 +400,13 @@
     "startTime": "11:45",
     "endTime": "12:30",
     "room": "Hub",
-    "speakers": ["sanskriti-lamsal"],
-    "tags": ["AI engineering"],
-    "abstract": null
+    "speakers": [
+      "sanskriti-lamsal"
+    ],
+    "tags": [
+      "AI engineering"
+    ],
+    "abstract": "When was the last time you experimented with a local model? If you're like me, you probably tried one back in 2024 when they were rough around the edges, bought a Claude subscription, and never looked back. I've been running Gemma on my laptop for the past 4 months and have since canceled my AI subscriptions. In this talk, we'll explore how to use harness engineering and prompt engineering to build something real with local models."
   },
   {
     "id": "jun24-keynote-cole-medin",
@@ -320,9 +417,14 @@
     "startTime": "13:30",
     "endTime": "14:30",
     "room": "The Hall",
-    "speakers": ["cole-medin"],
-    "tags": ["AI engineering", "quality"],
-    "abstract": null
+    "speakers": [
+      "cole-medin"
+    ],
+    "tags": [
+      "AI engineering",
+      "quality"
+    ],
+    "abstract": "AI coding assistants can generate code fast, but without a system around them, the output is unpredictable. Code reviews and tests help, but they don't solve the root problem: the coding agent doesn't understand your codebase, your patterns, or what 'done' looks like.\nThis session introduces a battle-tested engineering loop - Plan, Implement, Validate - that treats AI assistants as true engineers who need architecture docs, project rules, and a validation pipeline, not just a prompt. You'll see how to front-load context so the AI understands your codebase from minute one, structure implementation as manageable tasks the AI can execute reliably, and build a multi-layered validation system that catches issues before they hit production.\n\nThe real unlock isn't better prompts - it's building a system that evolves. When your coding agent makes a mistake, you don't just fix the code; you fix the system that allowed it. By the end, you'll have a concrete, tool-agnostic framework you can apply with any AI coding assistant to consistently ship production-ready code."
   },
   {
     "id": "jun24-determinism",
@@ -333,9 +435,13 @@
     "startTime": "14:45",
     "endTime": "15:30",
     "room": "The Hall",
-    "speakers": ["eric-johnson"],
-    "tags": ["Event Driven Architecture"],
-    "abstract": null
+    "speakers": [
+      "eric-johnson"
+    ],
+    "tags": [
+      "Event Driven Architecture"
+    ],
+    "abstract": "A friend of mine runs disaster relief for a major humanitarian organization. He can evaluate a disaster, identify affected populations, calculate required resources, and coordinate a response faster than anyone else in the field. FEMA calls him. The Red Cross calls him. He does it all on a legal pad. If he gets hit by a bus tomorrow, that knowledge is gone. This is the bus factor. We know how to solve it for code. We version control, we document, we onboard. We've never been able to solve it for expertise. Until agents.\n\nBut every call to an LLM is a roll of the dice. One agent is manageable. Deploy several, and 40% of multi-agent pilots fail within six months of production. Not because agents break. Because correct agents interact in ways nobody planned for. The fix isn't better prompts or bigger models. It's the orchestration layer.\n\nIn this session I'll show you how durable orchestration wraps agents that are fundamentally unpredictable with infrastructure that is fundamentally reliable. The agents reason freely. The infrastructure provides the determinism. You'll leave with a pattern you can apply to any multi-agent system you're building today, and a new way to think about what it means to make expertise survive the bus."
   },
   {
     "id": "jun24-self-building-software",
@@ -346,9 +452,14 @@
     "startTime": "14:45",
     "endTime": "15:30",
     "room": "Forum",
-    "speakers": ["travis-frisinger"],
-    "tags": ["AI engineering", "architecture"],
-    "abstract": null
+    "speakers": [
+      "travis-frisinger"
+    ],
+    "tags": [
+      "AI engineering",
+      "architecture"
+    ],
+    "abstract": "AI coding assistants improve developer productivity, but they do not fundamentally change how software delivery works. Humans still coordinate tasks, manage transitions, and carry the cognitive load of execution.\n\nHydraFlow explores a different approach: treating software delivery itself as a programmable system operated by autonomous AI agents.\n\nIn HydraFlow, logging a GitHub issue becomes an instruction to the system. Agents plan the work, implement changes, validate outcomes, and propose pull requests while humans provide intent, oversight, and governance.\n\nWhat makes this experiment interesting is that HydraFlow began modifying its own codebase within days of its creation. Since then it has executed hundreds of autonomous pull request cycles, exposing a new class of engineering challenges that traditional software systems never encounter.\n\nThis talk examines the architectural patterns, orchestration strategies, and failure modes involved in building self-building systems, including:\n\n• Maintaining coherence when agents modify the system that runs them\n• Preventing runaway change loops and cascading failures\n• Designing validation layers that can safely gate autonomous execution\n• Calibrating trust between human operators and machine-driven development\n\nRather than focusing on AI coding itself, this session explores the deeper engineering problem: how to design software systems that can safely evolve themselves.\n\nThe result is a practical framework for building agent-driven delivery platforms and a glimpse into how programmable software delivery may reshape engineering organizations.\n\nProject site: https://hydraflow.ai/"
   },
   {
     "id": "jun24-spec-driven-airflow",
@@ -359,9 +470,13 @@
     "startTime": "14:45",
     "endTime": "15:30",
     "room": "Hub",
-    "speakers": ["kyle-mccluskey"],
-    "tags": ["AI engineering"],
-    "abstract": null
+    "speakers": [
+      "kyle-mccluskey"
+    ],
+    "tags": [
+      "AI engineering"
+    ],
+    "abstract": "AI coding assistants have transformed software development, moving from ad hoc \"\"vibe coding\"\" to rigorous spec-driven development (SDD). The Airflow ecosystem has fully embraced these advancements, but different use cases demand different SDD approaches.\n\nThis talk compares ETL and ML pipeline patterns, showing how each leverages Airflow's unique capabilities differently. I then present SDD strategies along a Spec Stability Spectrum. ETL specs are stable and external — schemas, dbt models — making deterministic, template-driven approaches like DAG Factory and the cosmos-dbt-core skill the right fit. ML specs are volatile and internal, as experiments evolve, so LLM-driven hybrid approaches like the Airflow AI SDK and the airflow-hitl skill are better suited. Both approaches are demonstrated live with Claude Code.\n\nExamples draw from my work at TXI Digital generating ETL and ML pipelines for heavy industry clients, with a focus on Rail and anecdotes from Renewable Energy."
   },
   {
     "id": "jun24-openspec",
@@ -372,9 +487,11 @@
     "startTime": "16:00",
     "endTime": "16:45",
     "room": "The Hall",
-    "speakers": ["tim-berglund"],
+    "speakers": [
+      "tim-berglund"
+    ],
     "tags": [],
-    "abstract": null
+    "abstract": "Coding agents are remarkably capable, and yet how do we treat them? Sometimes by giving them stream-of-consciousness descriptions of half-baked ideas: vague feature requests, underspecified tickets, or maybe just good old vibes. We've got better implementation assistants than we ever could have imagined, but we're not always doing a great job thinking through what we want them to build. Would a lightweight spec document be so bad?\n\nOpenSpec doesn't think so. Born from the recognition we've never really come to consensus on how to capture features—some do PRDs in Notion, some make epics in Jira, some still write user stories on index cards—it uses some Agent Skills and a CLI to guide you through structured feature exploration for greenfield and brownfield projects alike, producing detailed designs and todo lists precise enough to direct a coding agent even in the presence of some complexity. We'll trace how it emerged, see how it positions itself against approaches like Spec Kit and traditional design tooling, and examine the recent developments that have extended its capabilities.\n\nThe specification problem is older than agents, having bedeviled us since the first time someone handed a one of our grandparents a napkin sketch and called it a design doc. OpenSpec is surely not the final answer, but it's the right one for agentic engineering right now."
   },
   {
     "id": "jun24-worktrees",
@@ -385,9 +502,13 @@
     "startTime": "16:00",
     "endTime": "16:45",
     "room": "Forum",
-    "speakers": ["nieky-allen"],
-    "tags": ["architecture"],
-    "abstract": null
+    "speakers": [
+      "nieky-allen"
+    ],
+    "tags": [
+      "architecture"
+    ],
+    "abstract": "With the dramatic increase of agentic tooling and development practices, developers are moving faster than we ever thought possible. Accelerated engineering, as it has been coined, has taken the software industry by storm and organizations are scrambling to keep up with the ever-evolving landscape. In fact, GitHub’s research across nearly a million developers showed Copilot generated around 46% of their code when available and empowered them to complete work 55% faster. This velocity, however, does not stop with solely lines of code. From RAG to MCP to tooling, every month brings new standards, protocols, and, with them,  questions. As our craft evolves before our eyes, it is important to explore and experiment with new ways of working that do not sacrifice quality for speed."
   },
   {
     "id": "jun24-keynote-human",
@@ -398,8 +519,10 @@
     "startTime": "17:00",
     "endTime": "18:00",
     "room": "The Hall",
-    "speakers": ["serena-huang"],
+    "speakers": [
+      "serena-huang"
+    ],
     "tags": [],
-    "abstract": null
+    "abstract": "AI did not just change how software gets built. It also changed what good looks like.\n\nAs AI accelerates execution, the differentiators are shifting. The developers and leaders who thrive in an AI-powered world will not necessarily be the people who produce the most output. They will be the clearest thinkers, the fastest learners, the people others trust when the answers are unclear, and the ones who can adapt before they are forced to.\n\nThat shift has major implications for how organizations evaluate talent, develop leaders, and decide who advances. It also changes the equation for individual contributors. Your future is not on your manager’s roadmap. Increasingly, the capabilities that shape careers are the ones AI struggles to replicate and organizations still struggle to measure.\n\nIn this closing keynote, Dr. Serena H. Huang draws on a decade of deploying AI inside some of the world’s largest organizations to explore what becomes more valuable as AI becomes more capable, and why the future may depend less on keeping up with technology and more on strengthening the distinctly human skills that AI cannot replace."
   }
 ]
