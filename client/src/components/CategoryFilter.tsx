@@ -37,14 +37,14 @@ export default function CategoryFilter({
             : "border-black/10 bg-white text-navy/70 hover:border-navy/30 hover:text-navy"
         }`}
       >
-        {value}
+        {value.toLowerCase().replace(/\s+/g, '-')}
       </button>
     );
   };
 
   return (
-    <div className="mt-4 flex items-center gap-3">
-      <div className="flex flex-1 items-center gap-2 overflow-x-auto pb-1 [scrollbar-width:thin]">
+    <div className="mt-4 flex items-start gap-3">
+      <div className="flex flex-1 flex-wrap items-center gap-2 pb-1">
         {types.map((o) => (
           <Pill key={o.value} value={o.value} />
         ))}
