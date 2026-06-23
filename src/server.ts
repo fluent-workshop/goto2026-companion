@@ -100,6 +100,21 @@ const server = Bun.serve({
     if (path === "/api/chat" && req.method === "POST") return handleChat(req);
     if (path === "/api/health") return json({ status: "ok", ts: new Date().toISOString() });
 
+    // Supabase API proxy — forwards /supabase/* to the local Supabase instance
+    // at :54321. Required when the app is accessed remotely (e.g. via Cloudflare
+    // Tunnel) because the client uses window.location.origin + /supabase as its
+    // Supabase URL so it doesn't hard-code localhost.
+    if (path.startsWith("/supabase")) {
+      const target = "http://127.0.0.1:54321" + path.slice("/supabase".length) + (url.search ?? "");
+      const headers = new Headers(req.headers);
+      const resp = await fetch(target, {
+        method: req.method,
+        headers,
+        body: req.method !== "GET" && req.method !== "HEAD" ? req.body : undefined,
+      });
+      return new Response(resp.body, { status: resp.status, headers: resp.headers });
+    }
+
     // Static files
     if (!path.startsWith("/api/")) return serveStatic(path);
 
